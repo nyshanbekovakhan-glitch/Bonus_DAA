@@ -1,0 +1,20 @@
+=== Random keys (average case) ===
+BST          n=100    insert=  0,0091 ms  search=  0,0063 ms  delete=  0,0092 ms
+HashTable    n=100    insert=  0,0332 ms  search=  0,0106 ms  delete=  0,0133 ms
+BST          n=1000   insert=  0,0439 ms  search=  0,0405 ms  delete=  0,0428 ms
+HashTable    n=1000   insert=  0,0225 ms  search=  0,0078 ms  delete=  0,0092 ms
+BST          n=10000  insert=  0,5992 ms  search=  0,3893 ms  delete=  0,4145 ms
+HashTable    n=10000  insert=  0,2576 ms  search=  0,0183 ms  delete=  0,0286 ms
+
+=== Sorted keys (BST worst case) ===
+BST          n=100    insert=  0,0097 ms  search=  0,0114 ms  delete=  0,0015 ms
+HashTable    n=100    insert=  0,0035 ms  search=  0,0017 ms  delete=  0,0019 ms
+BST          n=1000   insert=  0,8069 ms  search=  1,0364 ms  delete=  0,0046 ms
+HashTable    n=1000   insert=  0,0108 ms  search=  0,0011 ms  delete=  0,0016 ms
+BST          n=10000  insert= 74,3644 ms  search= 95,9134 ms  delete=  0,0162 ms
+HashTable    n=10000  insert=  0,1142 ms  search=  0,0112 ms  delete=  0,0191 ms
+
+=== BST height ===
+n=100    random height=15   sorted height=100
+n=1000   random height=21   sorted height=1000
+n=10000  random height=29   sorted height=10000
